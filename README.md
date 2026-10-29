@@ -1,17 +1,13 @@
-# expense_mate
+# 💸 ExpenseMate – Personal Expense Tracker (Flutter)
 
-ExpenseMate - a simple personal expense tracker built with Flutter
+![Flutter](https://img.shields.io/badge/Flutter-3.47-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.13-0175C2?logo=dart)
+![Tests](https://img.shields.io/badge/tests-12%20passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Getting Started
+**ExpenseMate** is a simple, clean mobile app that helps students track their daily spending.
+Add an expense in a few taps, see where your money goes, stay inside your monthly budget,
+and switch between light and dark mode. All data is stored on the device.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> One-week technical project · **Amith Bhambhu (24AG1A0502)** · Department of CSE, ACE Engineering College
+> · Project guide: **Mr. P. Satish Bhasker** · 15/10/2026 – 21/10/2026
