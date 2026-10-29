@@ -102,3 +102,23 @@ lib/
 test/                          # 12 unit + widget tests
 docs/                          # screenshots, architecture diagram, terminal output
 ```
+
+## 🚀 Getting started
+
+**Requirements:** Flutter 3.x (stable) · Dart 3.x · Chrome, an Android emulator or a phone
+
+```bash
+git clone https://github.com/Amith-Codez/ExpenseMate-Flutter.git
+cd ExpenseMate-Flutter
+flutter pub get
+flutter run            # pick Chrome, Android or iOS
+```
+
+Run the checks:
+
+```bash
+flutter analyze
+flutter test
+```
+
+Tip: open **Settings → Load demo data** to fill the app with sample student expenses.
