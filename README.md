@@ -84,3 +84,21 @@ The app follows a simple three-layer design:
 2. **State** – `ExpenseController` (a `ChangeNotifier`) holds the list, does CRUD, search and analytics;
    screens rebuild with `ListenableBuilder`.
 3. **Data** – the `Expense` model (JSON) and `StorageService`, which saves to the device with `shared_preferences`.
+
+## 📁 Project structure
+
+```text
+lib/
+├── main.dart                  # loads saved data, starts the app
+├── app.dart                   # MaterialApp + light/dark theme switching
+├── models/                    # Expense, ExpenseCategory
+├── services/storage_service.dart
+├── state/expense_controller.dart
+├── data/sample_data.dart      # demo expenses
+├── theme/                     # colours + Material 3 themes
+├── utils/                     # currency (₹ Indian format), dates, validators
+├── widgets/                   # summary card, tiles, bar chart, breakdown …
+└── screens/                   # home shell, dashboard, expenses, add/edit, insights, settings
+test/                          # 12 unit + widget tests
+docs/                          # screenshots, architecture diagram, terminal output
+```
