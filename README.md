@@ -40,6 +40,40 @@ All screenshots were captured from the running app (`flutter run -d web-server`,
 |:---:|:---:|:---:|:---:|
 | <img src="docs/screenshots/09_insights.png" width="200"> | <img src="docs/screenshots/10_settings.png" width="200"> | <img src="docs/screenshots/11_dark_mode.png" width="200"> | <img src="docs/screenshots/12_budget_dialog.png" width="200"> |
 
+## 🖥️ Output
+
+### Running the app
+```text
+$ flutter run -d web-server --web-port 8088 --release
+Launching lib/main.dart on Web Server in release mode...
+Compiling lib/main.dart for the Web...                             12.6s
+✓ Built build/web
+lib/main.dart is being served at http://127.0.0.1:8088
+```
+<img src="docs/terminal_run.png" width="700">
+
+### Analyzer and tests
+```text
+$ flutter analyze
+No issues found!
+
+$ flutter test --reporter expanded
+00:00 +0: test/utils_test.dart: Currency uses Indian digit grouping
+00:00 +1: test/utils_test.dart: Currency compact labels
+00:00 +2: test/utils_test.dart: Dates relative labels
+00:00 +3: test/utils_test.dart: Validators title and amount
+00:00 +4: test/widget_test.dart: user can add an expense from the dashboard
+00:01 +5: test/widget_test.dart: validation errors are shown for an empty form
+00:01 +6: test/controller_test.dart: add, update and remove expenses
+00:01 +7: test/controller_test.dart: category totals are sorted from highest to lowest
+00:02 +8: test/controller_test.dart: data is persisted and reloaded
+00:02 +9: test/controller_test.dart: search filters by text and category
+00:02 +10: test/expense_model_test.dart: Expense survives a JSON round trip
+00:02 +11: test/expense_model_test.dart: Unknown category falls back to Other
+00:02 +12: All tests passed!
+```
+<img src="docs/terminal_test.png" width="700">
+
 ## 🏗️ Architecture
 
 <img src="docs/architecture.png" width="800">
