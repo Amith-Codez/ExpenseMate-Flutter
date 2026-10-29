@@ -24,6 +24,22 @@ and switch between light and dark mode. All data is stored on the device.
 | 💾 Offline storage | Everything is saved locally with `shared_preferences` |
 | 🌗 Material 3 | Light and dark themes generated from one seed colour |
 
+## 📱 Screenshots (live execution)
+
+All screenshots were captured from the running app (`flutter run -d web-server`, phone-size window 412 × 892).
+
+| Empty state | Dashboard | All expenses | Category filter |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/01_empty_state.png" width="200"> | <img src="docs/screenshots/02_dashboard.png" width="200"> | <img src="docs/screenshots/03_expenses.png" width="200"> | <img src="docs/screenshots/04_filter_food.png" width="200"> |
+
+| Search | Add expense | Form validation | Expense saved |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/05_search.png" width="200"> | <img src="docs/screenshots/06_add_form.png" width="200"> | <img src="docs/screenshots/07_validation.png" width="200"> | <img src="docs/screenshots/08_saved.png" width="200"> |
+
+| Insights | Settings | Dark mode | Budget dialog |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/09_insights.png" width="200"> | <img src="docs/screenshots/10_settings.png" width="200"> | <img src="docs/screenshots/11_dark_mode.png" width="200"> | <img src="docs/screenshots/12_budget_dialog.png" width="200"> |
+
 ## 🏗️ Architecture
 
 <img src="docs/architecture.png" width="800">
