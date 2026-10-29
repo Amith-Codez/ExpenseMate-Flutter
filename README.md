@@ -23,3 +23,14 @@ and switch between light and dark mode. All data is stored on the device.
 | ⚙️ Settings | Monthly budget, dark mode, load demo data, clear all data |
 | 💾 Offline storage | Everything is saved locally with `shared_preferences` |
 | 🌗 Material 3 | Light and dark themes generated from one seed colour |
+
+## 🏗️ Architecture
+
+<img src="docs/architecture.png" width="800">
+
+The app follows a simple three-layer design:
+
+1. **Presentation** – screens and reusable widgets (`lib/screens`, `lib/widgets`).
+2. **State** – `ExpenseController` (a `ChangeNotifier`) holds the list, does CRUD, search and analytics;
+   screens rebuild with `ListenableBuilder`.
+3. **Data** – the `Expense` model (JSON) and `StorageService`, which saves to the device with `shared_preferences`.
